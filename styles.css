@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Enriqueta", sans-serif;
-    color: #888888;
+    color: #4f4f4f;
 }
 
 #logo
@@ -111,7 +111,7 @@ li
 {
   list-style-type: none;
   padding: .5em 0;
-  color: limegreen;
+  color: #007f00;
   font-family: "Scope One", sans-serif;
 }
 
@@ -161,7 +161,7 @@ margin: 0 auto;
 
 th
 {
-background-color: limegreen;
+background-color: #007f00;
 color: #ffffff;
 padding: .5em;
 font-weight: normal;
@@ -191,7 +191,8 @@ caption
 {
   font-size: .8em;
   font-style: italic;
-  color: #cccccc;
+  color: #898989;
+  margin-bottom: 5px;
 }
 
 .project

@@ -1,0 +1,9 @@
+1. Floats are demonstrated here: index.html, HTML line 10 CSS line 88; about.html, HTML line 31 CSS line 180
+
+2. Positioning is demonstrated here: index.html, HTML line 18 CSS line 10
+
+3. The three CSS3 techniques I used on the site are: Web Fonts, Rounded Corners, and Box Shadow. The CSS line numbers for those techniques are here: 6, 42, 184
+
+4. My Aria roles are on index.html, lines 11-14.
+
+5. My table is located on about.html, line 35.
