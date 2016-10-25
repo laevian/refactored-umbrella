@@ -1,0 +1,203 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Enriqueta", sans-serif;
+    color: #888888;
+}
+
+#logo
+{
+  width: 5em;
+  position: relative;
+  height: 90vh;
+  float: left;
+  top: 10vh;
+}
+
+#logo > div
+{
+    position: absolute;
+    background-color: limegreen;
+}
+
+#logo-a
+{
+    width:1em;
+    left: 0;
+    top: 0;
+    height: 4em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+#logo-b
+{
+
+  height: 1em;
+  width: 5em;
+  left: 0;
+  top: 4em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+#logo-c
+{
+  width: 1em;
+  height: 3em;
+  left: 4em;
+  top: 2em;
+  border-bottom-right-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+#logo-d
+{
+  height: 1em;
+  width: 3em;
+  left: 2em;
+  top: 2em;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+}
+
+#logo-e
+{
+ width: 1em;
+ left: 2em;
+ top: 2em;
+ bottom: 0;
+ border-top-left-radius: 1em;
+}
+
+article
+{
+  width: 40vw;
+  float: left;
+  margin-left: 3vw;
+  padding: 15vh 3vw 5vh 3vw;
+  font-size: 1.2em;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  overflow-y: scroll;
+}
+
+nav
+{
+float: left;
+display: flex;
+align-items: center;
+height: 100vh;
+padding: 0 .5vw 0 4vw;
+font-size: 1.3em;
+text-align: right;
+}
+
+p
+{
+  margin-bottom: 1.5em;
+}
+
+nav > ul
+{
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+li
+{
+  list-style-type: none;
+  padding: .5em 0;
+  color: limegreen;
+  font-family: "Scope One", sans-serif;
+}
+
+li:hover
+{
+  border-bottom: 1px dashed limegreen;
+}
+
+h1
+{
+  font-family: "Scope One", sans-serif;
+  margin-bottom: 1.3em;
+  font-size: 2em;
+  font-weight:normal;
+  border-bottom: 3px double limegreen;
+}
+
+p > img
+{
+  float: left;
+}
+
+.clear
+{
+  clear: both;
+}
+
+a
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+.container
+{
+height: 100vh;
+}
+
+table
+{
+border: 1px solid #cccccc;
+background-color: #ffffff;
+padding: 0;
+border-collapse: collapse;
+margin: 0 auto;
+}
+
+th
+{
+background-color: limegreen;
+color: #ffffff;
+padding: .5em;
+font-weight: normal;
+}
+
+td
+{
+    padding: .5em 1em;
+}
+
+tr:nth-child(even)
+{
+  background-color: #f7f7f7;
+}
+
+#profile
+{
+  width: 15em;
+  height: 15em;
+  box-shadow: 3px 3px 5px;
+  float: left;
+  margin: 0 2em 1em 0;
+  border-radius: 4em;
+}
+
+caption
+{
+  font-size: .8em;
+  font-style: italic;
+  color: #cccccc;
+}
+
+.project
+{
+  display: inline-block;
+  width: 30%;
+  height: 10%;
+  margin: .3em;
+}
