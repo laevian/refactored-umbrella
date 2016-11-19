@@ -1,9 +1,40 @@
-1. Floats are demonstrated here: index.html, HTML line 10 CSS line 88; about.html, HTML line 31 CSS line 180
+Website is located at lpocklin.me
 
-2. Positioning is demonstrated here: index.html, HTML line 18 CSS line 10
-
-3. The three CSS3 techniques I used on the site are: Web Fonts, Rounded Corners, and Box Shadow. The CSS line numbers for those techniques are here: 6, 42, 184
-
-4. My Aria roles are on index.html, lines 11-14.
-
-5. My table is located on about.html, line 35.
+The <form> tag is located at this HTML URL: lpocklin.me/amusementpark.html on line numbers: 33-77
+The line numbers for two HTML5 form elements are: 36, 83
+My two jQuery-driven interactive elements in the form include Checkbox Whackamole
+and The Radio Button Shell Game
+Located at this HTML URL: lpocklin.me/amusementpark.html
+The line numbers in the JavaScript file where this code is found are: 48-82, 89-131
+My site’s click effect is when you click on the Start button for Game Two, it
+starts a game of Checkbox Whackamole; Game Two's Start button starts the Shell Game
+Located at this HTML URL: lpocklin.me/amusementpark.html
+The line numbers in the JavaScript file where this code is found are: 48, 89
+My site’s hover effect is when you hover on the color for the matching game,
+it expands and shows a hint for the RGB value
+Located at this HTML URL: lpocklin.me/amusementpark.html
+The line numbers in the JavaScript file where this code is found are: 24-43
+My if/else choice is used to stop the Whackamole game after round 7; if the
+loop counter is at 7, it clears the repeat
+Located at this HTML URL: lpocklin.me/amusementpark.html
+The line numbers in the JavaScript file where this code is found are: 56, 63
+My effect that requires filtering the results is when you click on one of the
+radio buttons for the shell game, it tells you whether or not you got the right
+answer.
+Located at this HTML URL: lpocklin.me/amusementpark.html
+The line numbers in the JavaScript file where this code is found are: 115-121
+Two more effects of my choice are- the color for the Color Match game is randomly
+generated, and the Correct/Nope! answers when you click the radio buttons on
+the shell game.
+Located at this HTML URL: lpocklin.me/amusementpark.html
+The line numbers in the JavaScript file where this code is found are: 4-17, 115-121
+Part 2
+The <canvas> element on my site occurs at this HTML URL: lpocklin.me/amusementpark.html
+A button that, when clicked, clears the entire canvas or part of the canvas
+The line numbers in the JavaScript file where this code is found are: 273-277
+At least two different elements drawn on the canvas when a button is clicked
+The line numbers in the JavaScript file where this code is found are: 191-248
+Chaining methods
+The line numbers in the JavaScript file where this code is found are: 204-222
+A form element on the page that accepts some kind of user input
+The line numbers in the JavaScript file where this code is found are: 226-248

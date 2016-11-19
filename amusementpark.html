@@ -1,0 +1,96 @@
+<!doctype html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Enriqueta|Scope+One" rel="stylesheet">
+    <title>Leslie Pocklington</title>
+  </head>
+  <body>
+
+<div class="clear container">
+
+  <nav>
+    <ul role="menu">
+      <li role="menuitem"><a href="index.html">Home</a></li>
+      <li role="menuitem"><a href="about.html">About</a></li>
+      <li role="menuitem"><a href="projects.html">Projects</a></li>
+      <li role="menuitem"><a href="amusementpark.html">Games</a></li>
+    </ul>
+  </nav>
+
+  <div id="logo">
+    <div id="logo-a"></div>
+    <div id="logo-b"></div>
+    <div id="logo-c"></div>
+    <div id="logo-d"></div>
+    <div id="logo-e"></div>
+  </div>
+
+  <article>
+    <h1>JQuery Amusement Park</h1>
+    <p>As a way of exploring the capabilities of JQuery, I've created a little HTML form amusement park. Try your hand at each minigame, and try to get a high score!
+      (Works best in Chrome.)
+    </p>
+    <form>
+      <label for="picker"><span class="bold">Game One:</span><br>
+       Try to match the color shown (as best as possible) with this color picker. Hovering provides a hint.</label>
+      <input type="color" value="#ffffff" id="picker"><div class="color"></div><br><br><br>
+
+    <label for="whackamole"> <span class="bold">Game Two:</span><br>
+       Try to uncheck the checkboxes as quickly as they appear. (It may take a moment to start.)</label><button id="whackstart">Start</button><br>
+    <fieldset id="whackamole">
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox"><br>
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox"><br>
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox"><br>
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox"><br>
+    </fieldset>
+    <br><br>
+
+    <label for="shell"><span class="bold">Game Three:</span><br>
+    Try to click the radio button that contains the "shell".</label><button id="shellstart">Start</button><br>
+    <fieldset id="shell">
+    <input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio">
+  </fieldset><div class="response"></div><br><br>
+
+<!--  <label for="strength"><span class="bold">Game Four:</span><br>
+    Try to click the Stop button when the black | crosses the red.</label><button id="strengthstart">Start</button><button id="strengthstop">Stop</button><br>
+    <div class="strengthtest">||||||||||||||||||||||||||||</div>
+    <br><br> -->
+
+    <label for="name">Your Name</label><br>
+    <input type="text"></label><br><br>
+    <label for="name">Your Email</label><br>
+    <input type="email"></label><br><br><br>
+
+    <button>Submit Results</button>
+    </form>
+<br><br>
+  Click the button to draw a crane game! I have plans to expand this into a working crane game eventually, but for now it's just a pretty picture. Sorry!
+
+  <canvas width="500" height="300" class="cranegame"></canvas><br><br>
+  <div class="cranecontrols">
+  <label for="cranenum">Number of Prizes</label><input class="cranenum" type="range" min="1" max="5"><br>
+    <br><button id="cranestart">Start</button><button id="reset">Clear the canvas</button>
+</div>
+  </article>
+
+</div>
+
+  </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="scripts.js"></script>
+<script src="jcanvas.min.js"></script>
+</html>
