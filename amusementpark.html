@@ -34,11 +34,11 @@
     <form>
       <label for="picker"><span class="bold">Game One:</span><br>
        Try to match the color shown (as best as possible) with this color picker. Hovering provides a hint.</label>
-      <input type="color" value="#ffffff" id="picker"><div class="color"></div><br><br><br>
+      <input type="color" value="#ffffff" id="picker" name="picker"><div class="color"></div><br><br><br>
 
     <label for="whackamole"> <span class="bold">Game Two:</span><br>
        Try to uncheck the checkboxes as quickly as they appear. (It may take a moment to start.)</label><button id="whackstart">Start</button><br>
-    <fieldset id="whackamole">
+    <fieldset id="whackamole" name="whackamole">
       <input type="checkbox">
       <input type="checkbox">
       <input type="checkbox">
@@ -70,9 +70,9 @@
     <br><br> -->
 
     <label for="name">Your Name</label><br>
-    <input type="text"></label><br><br>
-    <label for="name">Your Email</label><br>
-    <input type="email"></label><br><br><br>
+    <input type="text" name="name"><br><br>
+    <label for="email">Your Email</label><br>
+    <input type="email" name="email"><br><br><br>
 
     <button>Submit Results</button>
     </form>
@@ -81,7 +81,7 @@
 
   <canvas width="500" height="300" class="cranegame"></canvas><br><br>
   <div class="cranecontrols">
-  <label for="cranenum">Number of Prizes</label><input class="cranenum" type="range" min="1" max="5"><br>
+  <label for="cranenum">Number of Prizes</label><input class="cranenum" type="range" min="1" max="5" name="cranenum"><br>
     <br><button id="cranestart">Start</button><button id="reset">Clear the canvas</button>
 </div>
   </article>
