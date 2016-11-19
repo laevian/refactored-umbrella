@@ -1,7 +1,7 @@
 Website is located at lpocklin.me
 
 The <form> tag is located at this HTML URL: lpocklin.me/amusementpark.html on line numbers: 33-77
-The line numbers for two HTML5 form elements are: 36, 83
+The line numbers for two HTML5 form elements are: 36, 74
 My two jQuery-driven interactive elements in the form include Checkbox Whackamole
 and The Radio Button Shell Game
 Located at this HTML URL: lpocklin.me/amusementpark.html
